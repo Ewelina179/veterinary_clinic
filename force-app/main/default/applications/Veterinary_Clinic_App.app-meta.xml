@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>pawgdbdc11940_12801</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Application to manage patients and visits to the veterinary clinic.</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Veterinary Clinic</label>
+    <navType>Standard</navType>
+    <tabs>standard-Event</tabs>
+    <tabs>Animal__c</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>Visit__c</tabs>
+    <tabs>Doctor__c</tabs>
+    <tabs>Medicine__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Veterinary_Clinic_UtilityBar1</utilityBar>
+</CustomApplication>
