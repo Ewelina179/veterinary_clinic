@@ -53,7 +53,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Visit__c.Calendar_Model__c</field>
+        <field>Visit__c.Date_of_visit__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

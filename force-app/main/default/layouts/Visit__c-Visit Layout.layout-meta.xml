@@ -36,7 +36,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Calendar_Model__c</field>
+                <field>Date_of_visit__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns/>
