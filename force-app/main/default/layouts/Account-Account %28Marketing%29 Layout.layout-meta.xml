@@ -37,6 +37,10 @@
                 <behavior>Edit</behavior>
                 <field>is_staff__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Email__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

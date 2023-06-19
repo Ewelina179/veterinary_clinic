@@ -3,7 +3,7 @@
     <fullName>Date_of_visit__c</fullName>
     <externalId>false</externalId>
     <label>Date of visit</label>
-    <required>false</required>
+    <required>true</required>
     <trackTrending>false</trackTrending>
     <type>DateTime</type>
 </CustomField>

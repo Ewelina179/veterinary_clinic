@@ -5,7 +5,16 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
+    <classAccesses>
+        <apexClass>EmailManager</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <custom>false</custom>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Email__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.is_client__c</field>
@@ -49,11 +58,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Doctor__c.Account__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Visit__c.Date_of_visit__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
