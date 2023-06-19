@@ -152,13 +152,13 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>ReadWrite</externalSharingModel>
-    <label>Visit</label>
+    <externalSharingModel>Private</externalSharingModel>
+    <label>AnimalMedicine</label>
     <nameField>
-        <label>Visit Name</label>
+        <label>AnimalVisit Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Visits</pluralLabel>
+    <pluralLabel>AnimalsMedicines</pluralLabel>
     <searchLayouts></searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
