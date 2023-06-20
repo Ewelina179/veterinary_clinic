@@ -5,8 +5,8 @@
     <externalId>false</externalId>
     <label>Medicine</label>
     <referenceTo>Medicine__c</referenceTo>
-    <relationshipLabel>Visits</relationshipLabel>
-    <relationshipName>Visits</relationshipName>
+    <relationshipLabel>AnimalsMedicines</relationshipLabel>
+    <relationshipName>AnimalsMedicines</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>
