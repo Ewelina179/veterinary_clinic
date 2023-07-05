@@ -16,7 +16,7 @@ Schedule of visits
 
 The following triggers have been implemented in the application:
 - canceling scheduled appointments if the patient dies, using a bulk design pattern
-- to do: email notification confirming the visit (to do)
+- to do: email notification confirming the visit
 
   and validation rules:
 - to do: prevent assigning a doctor to two visits at the same time.
