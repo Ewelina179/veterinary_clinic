@@ -2,7 +2,6 @@
 
 ## General info
 The functionalities of the application relate to patient management and appointment scheduling.
-The application enables:
 <br>
 Patient data storage
 - information about the patient (age, gender, race)
