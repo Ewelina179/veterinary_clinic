@@ -1,19 +1,30 @@
-# Salesforce DX Project: Next Steps
+# An application for managing a veterinary clinic.
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+## General info
+The functionalities of the application relate to patient management and appointment scheduling.
+The application enables:
+Patient data storage
+- information about the patient (age, gender, race)
+- contact details of the guardian
+- information about vaccinations, allergies, additional notes
+- history of visits
+Schedule of visits
+- booking appointments and assigning to a doctor
 
-## How Do You Plan to Deploy Your Changes?
+The following triggers have been implemented in the application:
+- canceling scheduled appointments if the patient dies, using a bulk design pattern
+- to do: email notification confirming the visit (to do)
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+  and validation rules:
+- to do: prevent assigning a doctor to two visits at the same time.
 
-## Configure Your Salesforce DX Project
+The application contains custom objects, including the AnimalMedicine junction object showing the use of drugs in individual patients.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+# To do
 
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
-"# veterinary_clinic" 
+- Unit tests for triggers.
+- For educational purposes, creating an endpoint that provides information about the drugs available at the clinic and sharing the collection in Postman for this endpoint.
+- Using the App Builder to change the interface,
+- Using Process Builder to generate reminders about upcoming visits,
+- Generating reports on the drugs used,
+- The ability to attach documents to the profile, e.g. an X-ray scan.
