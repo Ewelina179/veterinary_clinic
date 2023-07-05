@@ -9,8 +9,7 @@ Patient data storage
 - contact details of the guardian
 - information about vaccinations, allergies, additional notes
 - history of visits
-<br>
-Schedule of visits
+and schedule of visits
 - booking appointments and assigning to a doctor
 
 The following triggers have been implemented in the application:
