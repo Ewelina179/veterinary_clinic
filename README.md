@@ -9,6 +9,7 @@ Patient data storage
 - contact details of the guardian
 - information about vaccinations, allergies, additional notes
 - history of visits
+<br>
 and schedule of visits
 - booking appointments and assigning to a doctor
 
