@@ -36,6 +36,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Animal__c.Animal_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Animal__c.Breed__c</field>
         <readable>true</readable>
@@ -97,9 +102,6 @@
     </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>AnimalMedicine__c-AnimalVisit Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Animal__c-Animal Layout</layout>
