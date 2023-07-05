@@ -3,6 +3,7 @@
 ## General info
 The functionalities of the application relate to patient management and appointment scheduling.
 <br>
+<br>
 Patient data storage
 - information about the patient (age, gender, race)
 - contact details of the guardian
