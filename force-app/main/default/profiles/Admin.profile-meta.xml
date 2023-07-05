@@ -31,22 +31,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>AnimalMedicine__c.Animal__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>AnimalMedicine__c.End_date_of_application__c</field>
+        <field>AnimalMedicine__c.Dozen__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>AnimalMedicine__c.Medicine__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>AnimalMedicine__c.Start_date_of_application__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -57,6 +47,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Animal__c.Age__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Animal__c.AnimalMedicine__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Animal__c.Animal_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -97,6 +97,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Visit__c.Doctor__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Visit__c.Medicine__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

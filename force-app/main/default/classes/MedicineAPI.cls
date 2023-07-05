@@ -1,7 +1,8 @@
-@RestResource(urlMapping='/medicine/')
+@RestResource(urlMapping='/medicines/')
 global with sharing class MedicineAPI {
 	@httpGet
-    global static String doGet(){
-        return 'List of medicines';
+    global static List<Medicine__c> getMedicines(){
+        List<Medicine__c> medicines = [SELECT Name From Medicine__c];
+        return medicines;
     }
 }
