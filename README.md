@@ -10,6 +10,7 @@ Patient data storage
 - information about vaccinations, allergies, additional notes
 - history of visits
 <br>
+<br>
 and schedule of visits
 - booking appointments and assigning to a doctor
 
