@@ -5,7 +5,7 @@ The functionalities of the application relate to patient management and appointm
 <br>
 <br>
 Patient data storage
-- information about the patient (age, gender, race)
+- information about the patient (age, gender, breed)
 - contact details of the guardian
 - information about vaccinations, allergies, additional notes
 - history of visits
