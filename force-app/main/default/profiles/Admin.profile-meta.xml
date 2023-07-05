@@ -27,12 +27,27 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>AnimalMedicine__c.Dozen__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AnimalMedicine__c.Medicine__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Animal__c.Account__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Animal__c.Age__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Animal__c.AnimalMedicine__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -104,6 +119,9 @@
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>AnimalMedicine__c-AnimalVisit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Animal__c-Animal Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -160,6 +178,10 @@
         <object>Visit__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <tabVisibilities>
+        <tab>AnimalMedicine__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>Animal__c</tab>
         <visibility>DefaultOn</visibility>

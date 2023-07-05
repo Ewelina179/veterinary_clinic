@@ -16,10 +16,11 @@
     <navType>Standard</navType>
     <tabs>standard-Event</tabs>
     <tabs>Animal__c</tabs>
-    <tabs>standard-Account</tabs>
     <tabs>Visit__c</tabs>
     <tabs>Doctor__c</tabs>
     <tabs>Medicine__c</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>AnimalMedicine__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Veterinary_Clinic_UtilityBar1</utilityBar>
 </CustomApplication>
