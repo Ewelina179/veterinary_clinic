@@ -28,6 +28,6 @@ The application contains custom objects, including the AnimalMedicine junction o
 - Unit tests for triggers.
 - For educational purposes, creating an endpoint that provides information about the drugs available at the clinic and sharing the collection in Postman for this endpoint (https://elements.getpostman.com/redirect?entityId=13399370-6c27ebd3-e397-4b8d-83b0-01b81050bb13&entityType=collection)
 - Using the App Builder to change the interface.
-- Using Process Builder to generate reminders about upcoming visits.
+- Using Flow Builder to generate reminders about upcoming visits.
 - Generating reports on the drugs used.
 - The ability to attach documents to the profile, e.g. an X-ray scan.
